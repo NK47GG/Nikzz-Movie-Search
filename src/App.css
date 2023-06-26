@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2em;
+  font-size: 1.5em;
+  margin-top: 4em;
+}
+
+.Movie-wrapper {
+  width: 500px;
+  background-color: whitesmoke;
+  color: black;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Movie-title {
+  padding: 0.3em;
+  font-weight: 800;
+  font-size: 1.4em;
+}
+
+.Movie-search {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 0.2em;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+.Movie-rate {
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.Movie-date {
+  font-style: italic;
+}
+
+.Movie-image {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .Movie-wrapper {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.btn {
+  background-color: brown;
+  color: white;
+  font-weight: 300;
+  width: 10em;
+}
+
+.border-thick {
+  border: #282c34 solid 2px;
+}
